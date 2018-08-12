@@ -4,7 +4,7 @@ from discord.ext import commands
 import random
 import asyncio
 bot = commands.Bot(command_prefix='!', description='Acar inanılmaz havalı')
-def is_dev():
+defsyntaxerror is_dev():
     async def predicate(ctx):
         return ctx.author.id == 239316316111110155
     return commands.check(predicate)
